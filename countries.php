@@ -18,7 +18,10 @@
         <label for="country">Country</label>
       </div>
       <div class="col-75">
+        
+     
         <select id="country" name="country">
+       
           <option><?php echo'Select a Country'?></option>
           <?php foreach ($countries as $x => $y) { ?>
 
@@ -35,7 +38,12 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="Submit">
+    
+
+     
+      <input type="submit" value="Submit"  >
+          </input>
+
     </div>
     </form>
   </div>

@@ -1,6 +1,6 @@
 <?php include('include/header.php'); ?>
 
-<link rel="stylesheet" type="text/css" href="css/indx.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
 
 <div class="container">
   <div class="row">
@@ -9,9 +9,10 @@
 
       <img src="include\me.jpg" width="343" height="300">
 
-      <p>My name is Gabriel Genelhoud, I'm a Brazilian full-time student at CCT College Dublin.
+      <p class="p">My name is Gabriel Genelhoud, I'm a Brazilian full-time student at CCT College Dublin.
         I have been living in Dublin for the past 2.5 years.
       </p>
+
       <h3>Professional Profile Links:</h3>
 
       <ul class="nav nav-pills nav-stacked">
@@ -60,6 +61,7 @@
           <li>PHP arrays: In your site, create a page to display the data from an array into a HTML table with some styling (e.g. Bootstrap).
         </ul>
         </p3>
+      
 
         <p5>
           <ul>
