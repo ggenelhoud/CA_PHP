@@ -29,3 +29,86 @@ tr, td, table{
 th{
     background-color: lightslategrey;
 }
+
+/*Styling the countries page as well as adding the dropdown list*/
+* {
+    box-sizing: content-box;
+  }
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  h2{
+      font-family: Arial, Helvetica, sans-serif;
+      color:black;
+      margin-top: 1px;      
+      margin-bottom: 50px;
+  }
+  label {
+      
+    padding:12px;
+    display: inline-block;
+    
+  }
+  
+  input[type=submit] {
+    background-color: grey;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    }
+  
+  input[type=submit]:hover {
+    color: red;
+  }
+  
+  .container {
+  
+    width: max-content;
+    height: max-content;
+    background-color: whitesmoke;
+    padding: 100px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+   
+    margin-right: auto;
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   /* Adding some Style to the Table Page*/
+ tr, td, table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-color: black;
+    border-width: 6px;
+    font-size: 15px;
+}
+th{
+    background-color: burlywood;
+}

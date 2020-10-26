@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- In this page is where the table asked in the assignment is being created and where the array is looped through -->
 <head>
-    <link rel="stylesheet" type="text/css" href="css/tbls.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <?php include('include/header.php') ?>
 
     <!-- Array with all the values set by the CA instructor. And for user-friendliness purposes I used a very short piece of code to sort the array alphabetically. -->
