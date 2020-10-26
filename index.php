@@ -1,7 +1,13 @@
-<?php include('include/header.php'); ?>
+<html>
+<!-- Student Name: Gabriel Genelhoud
+     Student No.: 2019386
+-->
 
 <link rel="stylesheet" type="text/css" href="css/index.css" />
-
+<?php include('include/header.php'); 
+//using include to access code with the header section structure to avoid repeating same code on every page?>
+ 
+<!-- Putting everything in a container and breaking it down into sections -->
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
@@ -25,8 +31,10 @@
       <hr class="hidden-sm hidden-md hidden-lg">
     </div>
 
-    <?php $myid = array("Gabriel Genelhoud" => "2019386") ?>
+    <?php //Creating an array with some of my student info
+     $myid = array("Gabriel Genelhoud" => "2019386") ?>
 
+    <!-- Using a loop that will create a table according to the array needs. e.g if the array had more values the table would have more collumns and rows. Adding some style to the table as well-->
     <table border="1" cellspacing="3">
       <th>Student Name</th>
       <th>Student Number</th>
@@ -38,7 +46,7 @@
       <?php endforeach; ?>
     </table>
 
-
+    <!-- A little brief about the Assignment -->
     <div class="col-sm-8">
 
       <h1>Continuos Assesment About</h1>

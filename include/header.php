@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Putting the header and footer inside the include so we dont need to code it again, just need to access the include file to "insert" all the code into the other pages as the header of every page will be the same in this website. -->
   <title>Gabriel Genelhoud</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
