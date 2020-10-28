@@ -21,31 +21,27 @@
       </div>
       <div class="col-75">
 
+        <form action="tables.php" method="POST">
+          <select id="country" name="search">
+          <!-- Here I use another foreach loop to display all the countries inside the array as an option in the drop down list -->
+            <?php 
 
-        <select id="country" name="country">
-        <!-- Here I use another foreach loop to display all the countries inside the array as an option in the drop down list -->
-          <option><?php echo 'Select a Country' ?></option>
-          <?php foreach ($countries as $x => $y) { ?>
+              echo "<option>Select a Country</option>";
 
-            <option><?php echo $x; ?></option>
-
-
-          <?php } ?>
-
-        </select>
+              foreach ($countries as $x => $y) {             
+                echo"<option> $x </option>";    
+              } 
+              
+              
+              ?>
+          </select>  
+          <div class="row">
+        <!-- Adding a submit button so the user can select a country and sumbit the selected option to get the countries' capital output -->
+            <input type="submit" value="Submit">
+          </div>        
+        </form>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-      </div>
-    </div>
-    <div class="row">
-      <!-- Adding a submit button so the user can select a country and sumbit the selected option to get the countries' capital output -->
-      <input type="submit" value="Submit">
-      </input>
-
-    </div>
-    </form>
+    </div>    
   </div>
 
 </body>

@@ -15,6 +15,19 @@
 <body>
     <!-- Using a foreach loop to loop through the array and automatically create number of rows and collumns according to the array size and needs, and then adding some style -->
     <table border="1" cellspacing="5">
+        <?php 
+            
+            if(isset($_POST["search"])){            
+            
+                $input = $_POST["search"];      
+                if(array_key_exists($input, $countries)){                 
+                    echo "<h2 class=\"answer\">The capital of ". $input . " is " . $countries[$input] ."</h2>";
+                }else{
+                    echo'<h2 class=\"answer\">Country not listed</h2>';
+                } 
+            }          
+        
+        ?>
         <th>Country</th>
         <th>Capital</th>
         <?php foreach ($countries as $x => $y) : ?>
@@ -24,6 +37,8 @@
             </tr>
         <?php endforeach; ?>
     </table>
+
+
 
     <?php include('include/footer.php'); ?>
 
